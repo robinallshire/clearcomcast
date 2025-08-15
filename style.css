@@ -1,0 +1,84 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 14px; /* Reduced body text size */
+}
+
+.hero {
+    background-color: #0071e3;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px; /* Adjusted text size for better fit */
+    margin-bottom: 30px;
+}
+
+.get-started-btn {
+    background-color: #fff;
+    color: #0071e3;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.get-started-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.content {
+    padding: 20px;
+    font-size: 14px; /* Smaller text size for content */
+}
+
+h2 {
+    font-size: 22px; /* Smaller heading size */
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 14px; /* Reduced text size for mobile */
+    }
+
+    .get-started-btn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .content {
+        padding: 15px;
+        font-size: 13px; /* Further reduced text size for mobile */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller heading on mobile */
+    }
+}
